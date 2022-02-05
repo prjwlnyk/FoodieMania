@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto,' sans-serif;
+    overflow-y: scroll;
+    font-size: larger;
+}
+@media (min-width: 768px) {
+    body {
+        overflow-y:scroll;
+    }
+}
+.navbar i{
+    margin-right: 5px;
+}
+.navbar a{
+    display: flex;
+}
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+.navbar li{
+    margin-right: 15px;
+}
+
+.whatarewe {
+    height: 100vh;
+    width: 100%;
+}
+.whatarewe {
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url('breakfast.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.whatarewe h1,p {
+    position: relative;
+    color: #ffffff;
+    z-index: 3;
+}
+
+.whyus {
+    height:100%;
+    width: 100%;
+}
+@media (min-width:768px) {
+    .whyus {
+        height: 100vh;
+        width: 100%;
+    }
+}
+.whyus i{
+    font-size: xx-large;
+}
+.whyus {
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url('pavbaji.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.whyus .row{
+            margin-top: 12%;
+}
+.whyus h1,col {
+    position: relative;
+    color: #ffffff;
+    z-index: 3;
+}
+.whyus col {
+    margin-top: 0px;
+}
+
+.howtouse {
+    height: 100%;
+    width: 100%;
+}
+ @media (min-width: 768px) {
+     .howtouse {
+         height: 100vh;
+     }
+     .howtouse row {
+        padding-top: 0;
+        padding-bottom: 0;
+     }
+ }
+
+ .howtouse {
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url('secondlunch.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+@media (max-width:767px) {
+    .howtouse {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.btn-xl {
+    height: 65px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    background: transparent;
+    border-color: white;
+}
+
+.menu {
+    height:100%;
+    width: 100%;
+}
+@media (min-width:768px) {
+    .menu {
+        height: 100vh;
+        width: 100%;
+    }
+    #reg {
+        text-align: right;
+    }
+
+}
+.menu h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.menu {
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url('indianlunch.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+@media (max-width:767px) {
+    .menu {
+        padding: 50px;
+    }
+    .menu h1 {
+        margin-bottom: 30px;
+    }
+    #org {
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #reg {
+        padding: 5px;
+        text-align:center;
+        margin-bottom: 15px;
+    }
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 767px) {
+    footer {
+        margin-top: -50px;
+    }
+}
+
